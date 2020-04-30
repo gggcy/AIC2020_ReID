@@ -1,0 +1,26 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 \
+python train.py \
+    -a densenet161 \
+    -b 128 \
+    -d complete_aicity_car \
+    --logs-dir ./output/densenet161  \
+    --weights ./pretrain_models/densenet161-8d451a50.pth  \
+    --optimizer 0 \
+    --lr 3e-2 \
+    --weight-decay 0.0005 \
+    --epochs 900  \
+    --step_size 450 \
+    --step_size2 600 \
+    --step_size3 800 \
+    --lr_mult 1.0 \
+    --gpus 0,1,2,3 \
+    --metric_loss_weight 1 \
+    --big_height 310 \
+    --big_width 414 \
+    --target_height 288 \
+    --target_width 384 \
+    --epoch_inter 20 \
+    --start_save 200 \
+    --dense_evaluate 850 \
+    --warm_up_ep 20 \
+    --features 2048 \
