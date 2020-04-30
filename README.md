@@ -44,13 +44,13 @@ Datasets used in our implementation are avialable at
 You can directly use our trained model and extracted features for implementation, the link is as follows:
 
 | Models  | Usage   | Description | Download link                                                    |
-| -------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| -------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |-------------------------- |
 | ImageNet pretrained models  | Train     | for ```global_model/pretrain_models```       | [link](https://drive.google.com/file/d/1pcZRbtJ8iaI99nzL9W1ZxQC0yu2lEPrF/view?usp=sharing) |
 | ImageNet pretrained models  | Train     | for ```mgn_model/weights```  |   [link](https://drive.google.com/file/d/1kuUS8fltZCFYOHbQtzJyG9lBXOl6cijV/view?usp=sharing)  |
 | Trained model by us | Test   | contain four models checkpoint mentioned in our paper   | [link](https://drive.google.com/file/d/1VWXZmHAyM5zvfLujy7s0WNKhi50Bryc6/view?usp=sharing) |
 
 | Features  | Usage    | Description | Download link                                                    |
-| -------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| -------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |-------------------------- |
 | Pkls for features |Test | features extracted by each model  and performed by several post-processing      | [link](https://drive.google.com/file/d/1Hag_OBDAnT-gZfklCHZG66U9gbBBuubQ/view?usp=sharing) |
 
 ## Basic framework ##
