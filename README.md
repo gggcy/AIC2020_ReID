@@ -65,9 +65,9 @@ Train each single model in global_model and mgn_model.
 see global_models/README.md and mgn_model/README.md for detailed training steps. 
 
 ### Testing
-1 Download the vehicle ReID models trained by us from the google-drive(as shown above). 
+1 Download the vehicle ReID models trained by us from the google-drive([link](https://drive.google.com/file/d/1VWXZmHAyM5zvfLujy7s0WNKhi50Bryc6/view?usp=sharing)). 
 
-2 unzip the downloaded file ckpt.tar in the current directory, and make a link in both global_models and mgn_models
+2 unzip the downloaded file ckpt.tar in the current directory, and make a link in both `global_model` and `mgn_model` directory
 
 3 download imagenet pretrained models([link](https://drive.google.com/file/d/1pcZRbtJ8iaI99nzL9W1ZxQC0yu2lEPrF/view?usp=sharing)) for `global_model/pretrain_models` and unzip in `global_mddel` directory
 
