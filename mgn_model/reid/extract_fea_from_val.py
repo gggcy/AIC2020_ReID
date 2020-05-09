@@ -136,7 +136,7 @@ def main(args):
     checkpoint = load_checkpoint(args.resume)
     model.net.load_state_dict(checkpoint['state_dict']) 
     #model = nn.DataParallel(model, [0,1]).cuda()
-    model = nn.DataParallel(model, [0,1,2,3,4,5,6,7]).cuda()
+    model = nn.DataParallel(model, [0,1,2,3]).cuda()
     query_loader, gallery_loader = get_real_test_data(args.query_dir, args.gallery_dir, args.target_height, args.target_width, args.batch_size, args.workers)
     query_features = extract_features(model, query_loader, is_flip=True)
     gallery_features = extract_features(model, gallery_loader, is_flip=True)    
@@ -151,7 +151,7 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="extract features")
     # data
-    parser.add_argument('--batch_size', type=int, default=96)
+    parser.add_argument('--batch_size', type=int, default=48)
     parser.add_argument('--workers', type=int, default=4)
     parser.add_argument('--resume', type=str, default='/data/home/cunyuangao/Project/AIC2020_ReID/mgn/logs/resnet_reid_152/model_best.pth.tar')
     parser.add_argument('--target_height', type=int, default=310,
