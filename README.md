@@ -1,5 +1,5 @@
 # Implementation of Vehicle Re-Identification Based on Complementary Features for 2020 AICity Challenge Track2 
-This repository contains the source codes of vehicle Re-ID of our implementation for 2020 AICity Challenge, and we got 5-th place in the vehicle Re-ID track of AIC2020.
+This repository contains the source codes of vehicle Re-ID of our implementation for 2020 AICity Challenge, and we got 5-th place in the vehicle Re-ID track of AIC2020. [Our paper](https://arxiv.org/abs/2005.04463)
 ######
 ## Dependencies
 python 2.7 / python 3.6 
